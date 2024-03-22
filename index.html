@@ -8,11 +8,67 @@
 </head>
 <main>
 <body>
-
-
-
-
-
+    <!-- Navigation -->
+<nav class="w3-bar w3-black">
+    <a href="#home" class="w3-button w3-bar-item">principal</a>
+    <a href="#band" class="w3-button w3-bar-item">Pesquisar</a>
+    <a href="#tour" class="w3-button w3-bar-item">tema</a>
+    <a href="#contact" class="w3-button w3-bar-item">ajuda</a>
+  </nav>
+  
+  <!-- Slide Show -->
+  <section>
+    <img class="mySlides" src="https://i.pinimg.com/originals/8b/e3/98/8be398f13c54fed1ea24d07ac84e129e.jpg"
+    style="width:100%">
+    <img class="mySlides" src="https://th.bing.com/th/id/R.c56878f435b42095567d2b173dd68141?rik=qEN7GFUsQTW%2fCw&pid=ImgRaw&r=0"
+    style="width:100%">
+    <img class="mySlides" src="https://claudia.abril.com.br/wp-content/uploads/2020/01/filmes-com-mensagens-legais-para-as-crianc3a7as-06-home-cada-um-na-sua-casa.jpg?quality=90&strip=info"
+    style="width:100%">
+  </section>
+  
+  <!-- Band Description -->
+  <section class="w3-container w3-center w3-content" style="max-width:600px">
+    <h2 class="w3-wide">CartoonCine</h2>
+    <p class="w3-opacity"><i>BEM-VINDO</i></p>
+    
+  </section>
+  
+  <!-- Band Members -->
+  <section class="w3-row-padding w3-center w3-light-grey">
+    <article class="w3-third">
+      <p>Rango</p>
+      <img src="https://th.bing.com/th/id/R.1d80aacbeacb016cb86ff8b70d329492?rik=Og%2fWaCC0crcTbg&pid=ImgRaw&r=0" alt="Random Name" style="width:100%">
+      <p>é um camaleão da cidade grande que vai parar, após um acidente, em pleno velho oeste, na cidade de Poeira no deserto do Mojave, na Califórnia.</p>
+    </article>
+    <article class="w3-third">
+      <p>Shrek 4</p>
+      <img src="https://th.bing.com/th/id/R.a321626b80a19a362056359ca2438642?rik=YQQzpzg9%2fHgHvg&pid=ImgRaw&r=0" alt="Random Name" style="width:100%">
+      <p>é um filme estadunidense de animação, comédia aventura, fantasia e romance, lançado em maio de 2010, dirigido por Mike Mitchell, com roteiro de Josh Klausner & Darren Lemke. É o quarto filme da franquia Shrek e a continuação de Shrek the Third (2007).</p>
+    </article>
+    <article class="w3-third">
+      <p>Bons De Bico</p>
+      <img src="https://th.bing.com/th/id/OIP.X3adkKOE1z4ja78S_WBs4gHaK0?rs=1&pid=ImgDetMain" alt="Random Name" style="width:100%">
+      <p>Esta animação começa com um letreiro na tela, afirmando que a história é fictícia, apesar de ser baseada em fatos históricos. Letreiros do tipo são raros em animações infantis, mas Bons de Bico aborda um período polêmico da História dos Estados Unidos. </p>
+    </article>
+  </section>
+  <script>
+    // Automatic Slideshow - change image every 3 seconds
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 3000);
+    }
+    </script>
+    
 
 
 
