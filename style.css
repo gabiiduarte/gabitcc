@@ -1,6 +1,17 @@
-.pri{
+.bgimg {
+    background-image: url('https://i.pinimg.com/originals/8b/e3/98/8be398f13c54fed1ea24d07ac84e129e.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+  }
+  .middle {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
   }
