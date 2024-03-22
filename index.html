@@ -1,29 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>CartoonCine</title>
+   <!-- <link rel="stylesheet" href="style.css">-->
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Document</title>
 </head>
-<main>
 <body>
+    <main>
+
     <!-- Navigation -->
-<nav class="w3-bar w3-black">
-    <a href="#home" class="w3-button w3-bar-item">principal</a>
-    <a href="#band" class="w3-button w3-bar-item">Pesquisar</a>
-    <a href="#tour" class="w3-button w3-bar-item">tema</a>
-    <a href="#contact" class="w3-button w3-bar-item">ajuda</a>
-  </nav>
+    <nav class="w3-bar w3-black">
+        <a href="#home" class="w3-button w3-bar-item">principal</a>
+        <a href="#band" class="w3-button w3-bar-item">Pesquisar</a>
+        <a href="#tour" class="w3-button w3-bar-item">tema</a>
+        <a href="#contact" class="w3-button w3-bar-item">ajuda</a>
+    </nav>
   
   <!-- Slide Show -->
   <section>
-    <img class="mySlides" src="https://i.pinimg.com/originals/8b/e3/98/8be398f13c54fed1ea24d07ac84e129e.jpg"
-    style="width:100%">
-    <img class="mySlides" src="https://th.bing.com/th/id/R.c56878f435b42095567d2b173dd68141?rik=qEN7GFUsQTW%2fCw&pid=ImgRaw&r=0"
-    style="width:100%">
-    <img class="mySlides" src="https://claudia.abril.com.br/wp-content/uploads/2020/01/filmes-com-mensagens-legais-para-as-crianc3a7as-06-home-cada-um-na-sua-casa.jpg?quality=90&strip=info"
-    style="width:100%">
+    <img class="mySlides" src="https://i.pinimg.com/originals/8b/e3/98/8be398f13c54fed1ea24d07ac84e129e.jpg" style="width:100%">
+    <img class="mySlides" src="https://th.bing.com/th/id/R.c56878f435b42095567d2b173dd68141?rik=qEN7GFUsQTW%2fCw&pid=ImgRaw&r=0" style="width:100%">
+    <img class="mySlides" src="https://claudia.abril.com.br/wp-content/uploads/2020/01/filmes-com-mensagens-legais-para-as-crianc3a7as-06-home-cada-um-na-sua-casa.jpg?quality=90&strip=info" style="width:100%">
   </section>
   
   <!-- Band Description -->
@@ -51,33 +51,9 @@
       <p>Esta animação começa com um letreiro na tela, afirmando que a história é fictícia, apesar de ser baseada em fatos históricos. Letreiros do tipo são raros em animações infantis, mas Bons de Bico aborda um período polêmico da História dos Estados Unidos. </p>
     </article>
   </section>
-  <script>
-    // Automatic Slideshow - change image every 3 seconds
-    var myIndex = 0;
-    carousel();
-    
-    function carousel() {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-      myIndex++;
-      if (myIndex > x.length) {myIndex = 1}
-      x[myIndex-1].style.display = "block";
-      setTimeout(carousel, 3000);
-    }
-    </script>
-    
+  
 
-
-
-
-
-
-
-
-    <script src="script.js" defer></script>
-</body>
+ <script defer src="script.js"></script>
 </main>
+</body>
 </html>
