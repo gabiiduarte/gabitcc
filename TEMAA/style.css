@@ -63,28 +63,11 @@
   
   
   }
-  .w3-wide{
-    font-family: "Honk", system-ui;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-      "MORF" 15,
-      "SHLN" 50;
-      font-size: 100px;
-  }
-  
   
   .p{
     background-color: rgb(253, 253, 253);
   }
   
-  .bm{
-    color: aliceblue;
-    font-family: "Rubik Doodle Triangles", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
   
   .w3-third{
     background-color: rgb(3, 3, 3);
@@ -95,4 +78,13 @@
     background-color: rgb(3, 3, 3);
   }
   
-  
+  .comç{
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+      font-size: 100px;
+  }
