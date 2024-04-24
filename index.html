@@ -32,6 +32,19 @@
                 <a href="NOSTALGIA/INDEX.HTML" class="w3-button w3-bar-item">NOSTALGIA</a>  
                 
             </nav>
+        <title>Manipulação do DOM</title>
+    <script>
+      let count = 0;
+
+      function incrementCount() {
+        count++;
+        document.getElementById("count-display").textContent = count;
+      }
+    </script>
+
+     <h1>Manipulação do DOM</h1>
+     <button onclick="incrementCount()">Clique Aqui</button>
+     <p>Total de Cliques: <span id="count-display">0</span></p>
             <div class="container">
           <!-- Slide Show -->
                 <section>
@@ -45,7 +58,6 @@
                   <p class="bm"><i>BEM-VINDO!</i></p>
                   
                 </section>
-                
 
                 <section class="w3-row-padding">
                   <article class="w3-third">
