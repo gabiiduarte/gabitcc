@@ -1,4 +1,5 @@
-* {
+
+/* * {
   box-sizing: border-box;
 }
 
@@ -8,7 +9,7 @@ body {
   font-family: Arial;
 }
 
-/* Center website */
+Center website 
 .main {
   max-width: 1000px;
   margin: auto;
@@ -45,14 +46,14 @@ body {
   padding: 10px;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/* Responsive layout - makes a two column-layout instead of four columns 
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other 
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -91,4 +92,4 @@ body {
 .w3-row-padding {
   background-color: rgb(3, 3, 3);
 }
-
+*/
